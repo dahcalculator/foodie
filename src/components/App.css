@@ -1,0 +1,95 @@
+.dashboard{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: o;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 3rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+.nav li:first-child{
+    font-size: 1.5rem;
+}
+
+.searchDiv{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    gap: 1rem;
+    box-shadow: -3px 4px 6px 3px #ccc;
+}
+
+.company{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0px 3px 19px 1px #ccc;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.compDetail{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+#compImg{
+min-width: 100%;
+height: 111px;
+}
+
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.compName{
+    font-size: 1.7rem;
+}
+
+.star{
+    color: red;
+    font-size: 3rem;
+    gap: 2rem;
+}
+.rate{
+    font-weight: bold;
+    font-size: bold;
+}
+
+.card{
+    height: 100%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}

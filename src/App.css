@@ -1,0 +1,63 @@
+
+body{
+  position: relative;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(191.9deg, rgba(150, 59, 53, 0.78) 54.98%, rgba(143, 75, 75, 0) 121.32%);
+  border-radius: 5px;
+background: linear-gradient(191.9deg, rgba(150, 59, 53, 0.78) 54.98%, rgba(143, 75, 75, 0) 121.32%);
+border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  width: 100vw;
+  font-size: 3rem;
+}
+
+
+.welcomePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+}
+
+.welcome{
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn{
+  width: 10rem;
+  padding: 1rem;
+  height: fit-content;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
